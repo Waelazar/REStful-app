@@ -5,9 +5,9 @@ var bodyParser = require("body-parser"),
     express        = require("express"),
     app            = express();
 
-var url = process.env.DATABASEURL || "mongodb://localhost/restful_blog_app";
-mongoose.connect(url);
-
+// var url = process.env.DATABASEURL || "mongodb://localhost/restful_blog_app";
+mongoose.connect("mongodb://wael:022713220Wael@ds163060.mlab.com:63060/restful-blog-app");
+// mongodb://wael:022713220Wael@ds163060.mlab.com:63060/restful-blog-app
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
