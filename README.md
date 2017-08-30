@@ -1,5 +1,16 @@
 # REStful-app
-Later i will write more details about how should install
+the chart file explains how RESTful works 
 
 # installation 
-cames later
+you need to install packeges :
+
+    npm install
+    express 
+    ejs
+    mongoose
+    body-parser
+    method-override
+    express-sanitizer --save    
+    
+#Database
+in this app database hosted by MongoDB on https://mlab.com/ 
