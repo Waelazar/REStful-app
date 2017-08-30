@@ -1,8 +1,8 @@
 # REStful-app
-the chart file explains how RESTful works 
+The chart file explains how RESTful works 
 
-# installation 
-you need to install packeges :
+# Installation 
+You need to install packeges :
 
     npm install
     express 
@@ -12,5 +12,5 @@ you need to install packeges :
     method-override
     express-sanitizer --save    
     
-#Database
-in this app database hosted by MongoDB on https://mlab.com/ 
+# Database
+In this app database hosted by MongoDB on https://mlab.com/ 
